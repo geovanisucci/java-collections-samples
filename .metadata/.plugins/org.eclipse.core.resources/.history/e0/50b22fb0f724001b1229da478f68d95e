@@ -1,0 +1,21 @@
+
+public class TestaConversao {
+
+	public static void main(String[] args) {
+		
+		try {
+			double salario = 1270.50;
+			
+			String valor = String.valueOf(salario);
+			
+			System.out.println(valor);
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		
+
+	}
+
+}

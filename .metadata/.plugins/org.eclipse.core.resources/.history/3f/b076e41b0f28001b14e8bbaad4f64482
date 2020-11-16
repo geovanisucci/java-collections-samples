@@ -1,0 +1,19 @@
+package br.com.listas;
+
+import java.util.List;
+
+public class TestaCurso {
+	
+	public static void main(String[] args) {
+		
+		Curso javaColecoes = new Curso("Java", "Geovani Succi");
+		
+		
+		List<Aula> aulas = javaColecoes.getAulas();
+		
+		aulas.add(new Aula("Java básico", 16));
+		
+		System.out.println(aulas);
+		
+	}
+}

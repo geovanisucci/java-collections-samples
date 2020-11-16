@@ -1,0 +1,8 @@
+package br.com.listas;
+
+public class TestaCurso {
+	
+	public static void main(String[] args) {
+		
+	}
+}

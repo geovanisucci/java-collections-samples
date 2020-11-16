@@ -1,0 +1,10 @@
+
+public class CalculaSalario implements ICalculaSalario {
+
+	@Override
+	public double Calcula(double salarioBruto, double desconto) {
+		
+		return 0;
+	}
+
+}

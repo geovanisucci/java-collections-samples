@@ -1,0 +1,21 @@
+package data;
+import java.util.ArrayList;
+
+import modelo.*;
+
+
+public class PessoaData {
+	
+	public PessoaData() {
+		// TODO Auto-generated constructor stub
+		
+		Pessoa p = new Pessoa("Geovani");
+		
+		
+		List<Pessoa> pessoas = new ArrayList<Pessoa>();
+		
+		
+		
+	}
+
+}

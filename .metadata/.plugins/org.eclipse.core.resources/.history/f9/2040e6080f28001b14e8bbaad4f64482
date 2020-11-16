@@ -1,0 +1,32 @@
+package br.com.listas;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class Curso {
+
+	public Curso(String nome, String instrutor) {
+		this.nome = nome;
+		this.instrutor = instrutor;
+	}
+
+	private String nome;
+	private String instrutor;
+	/* A ideia de usar sempre o List, a gente encapsula tudo (é como se fosse o
+	/ IList do .Net)*/
+	private List<Aula> aulas = new LinkedList<Aula>();
+
+	public String getNome() {
+		return nome;
+	}
+
+	public String getInstrutor() {
+		return instrutor;
+	}
+
+	public List<Aula> getAulas() {
+		return aulas;
+	}
+
+}

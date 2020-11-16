@@ -1,0 +1,14 @@
+package br.com.listas;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Curso {
+	
+	private String nome;
+	private String instrutor;
+	// A ideia de usar sempre o List, a gente encapsula tudo (é como se fosse o IList do .Net)
+	private List<Aula> aulas = new ArrayList<Aula>();
+	
+
+}

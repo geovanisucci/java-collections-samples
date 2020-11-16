@@ -1,0 +1,17 @@
+package modelo;
+
+public class Pessoa {
+	
+	public Pessoa(String nome) {
+		// TODO Auto-generated constructor stub
+	}
+	
+	private String nome;
+
+	public String getNome() {
+		return nome;
+	}
+
+	
+
+}

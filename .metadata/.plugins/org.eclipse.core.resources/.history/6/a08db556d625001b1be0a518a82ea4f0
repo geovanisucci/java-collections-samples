@@ -1,0 +1,10 @@
+package br.com.listas;
+
+public class Aula {
+	
+	private String titulo;
+	private int tempo;
+	
+	
+
+}

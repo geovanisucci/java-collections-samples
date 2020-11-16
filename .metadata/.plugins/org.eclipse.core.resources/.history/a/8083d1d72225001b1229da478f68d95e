@@ -1,0 +1,9 @@
+package br.com.listas;
+
+public class TestandoListas {
+	
+	public static void main(String[] args) {
+		
+		String aula1 = "Conhecendo mais de listas";
+	}
+}

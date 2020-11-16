@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+import data.*;
+import modelo.*;
+
+public class Startup {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		PessoaData data = new PessoaData();
+		
+		ArrayList<Pessoa> pessoas = data.Mostrar();
+		
+
+	}
+
+}
